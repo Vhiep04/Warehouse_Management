@@ -1,0 +1,236 @@
+/* .export-slip-page {
+    padding: 20px;
+    background: #f5f5f5;
+    min-height: calc(100vh - 60px)
+} */
+  .Header{
+    position: relative;
+  }
+  
+  .export-slip-container {
+    display: flex;
+    gap: 20px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    position: absolute;
+    /* flex-direction: column; */
+    width: 80%;
+    max-height: 90vh;
+    overflow: auto;
+    top: 100px;
+    left: 18%;
+    border-left: 1px solid darkgray;
+    margin-bottom: 50px;
+  }
+  
+  .main-content {
+    flex: 1;
+  }
+  
+  .export-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 370px;
+    color: rgb(63, 63, 255);
+  }
+  
+  .export-header h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .close-btn {
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+  
+  .form-container {
+    background: #E5E5E5;
+
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  }
+  .form-header{
+    margin: 20px 30px 10px;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+  }
+  
+  .form-group {
+    flex: 1;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  .form-group input {
+    width: 80%;
+    padding: 6px 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .products-container {
+    /* width: 90%; */
+    max-width: 1200px; /* Đặt giới hạn chiều rộng để bảng không quá dài */
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 40px; 
+  }
+  
+  .products-row {
+    display: flex;
+    border-bottom: 1px solid #eee;
+    /* border: 1px solid black; */
+    /* border-right: 1px solid black; */
+    /* padding: 8px 0; */
+    font-size: 16px;
+  }
+  
+  .products-row.header {
+    font-weight: bold;
+    background: #888888;
+    /* border: 1px solid black; */
+  }
+  .col{
+    flex: 1;
+    padding: 14px 12px;
+    border: 1px solid #ddd;
+    
+    border-collapse: collapse;
+  }
+  
+  /* .col-stt { width: 5%; }
+  .col-name { width: 20%; }
+  .col-code { width: 10%; }
+  .col-unit { width: 10%; }
+  .col-price { width: 15%; }
+  .col-qty { width: 10%; }
+  .col-discount { width: 10%; }
+  .col-total { width: 20%; } */
+  
+  .contract-section {
+    margin-top: 20px;
+  }
+  
+  .contract-section h4 {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+  }
+  
+  .contract-previews {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .preview {
+    flex: 1;
+    height: 150px;
+    border: 1px solid #ddd;
+    background: #f8f9fa;
+  }
+  
+  .status-panel {
+    width: 250px;
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  .status-header{
+    margin-bottom: 10px;
+  }
+  
+  .status-group {
+    margin-bottom: 15px;
+    /* display : flex;
+    justify-content : space-between; */
+  }
+  
+  .status-label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+  }
+  
+  .status-btn {
+    width: 40%;
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    /* margin-left : 30px; */
+    
+  }
+  
+  .status-info {
+    min-height: 40px;
+    font-size: 16px;
+    color: #666;
+    /* margin-left : 30px; */
+    
+    
+  }
+  .status-info input {
+    width: 100%;
+    padding: 4px 4px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    
+
+  }
+  
+  /* .status-info .name {
+    margin-bottom: 2px;
+    
+    
+  }
+  
+  .status-info .time {
+    font-size: 11px;
+    
+  } */
+  
+  /* Button styles */
+  .delete { background:  #FFC19E;; color: white; }
+  .approve { background: #FFBC16;; color: black; }
+  .reject { background: #EE4B3C; color: white; }
+  .exported { 
+    background: #888888;
+    color: white;
+    /* opacity: 0.7; */
+    /* cursor: not-allowed; */
+  }
+  .return { background: #888888; color: white; }
+  
+  /* Responsive */
+  @media (max-width: 1024px) {
+    .export-slip-container {
+      flex-direction: column;
+    }
+    
+    .status-panel {
+      width: 100%;
+    }
+  }

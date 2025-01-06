@@ -1,0 +1,118 @@
+.login-container{
+    width: 100%;
+    height: 90vh;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+}
+.contener{
+    width: 65%;
+    height: 500px;
+    margin-left: 17.5%;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+.login-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.login-right{
+    height: 100%;
+    width: 50%;
+    border: 3px solid rgb(236, 229, 229);
+    text-align: center;
+    border-radius: 0px 20px 20px 0px;
+    line-height: 40px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    
+}
+.login-left{
+    width: 50%;
+    text-align: right;
+    height: 100%;
+     border-radius: 12px 0px 0px 12px;
+}
+.login-h1{
+    color: rgb(64, 61, 213);
+    font-size: 20px;
+    margin-top: 20px;
+}
+.login-s1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.login-s2{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.login-check{
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.login-but{
+    color: white;
+    border: none;
+    width: 100%;
+    background: #4643df;
+    border-radius: 8px;
+    height: 40px;
+    font-size: 16px;
+}
+.login-but:hover{
+    background-color: #0B08AB;
+    cursor: pointer;
+}
+.login-boder{
+    border-radius: 8px;
+    border: 1px solid darkgray;
+    height: 40px ;
+    outline: none;
+    padding: 0 20px;
+}
+.login-link{
+    text-decoration: none;
+    font-style: italic;
+    color: #0B08AB;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.login-link:hover{
+    color: #020122;
+}
+
+.login-label{
+    font-size: 15px;
+}
+
+.login-eye-icon{
+    position: absolute;
+    top: 52px ;
+    right: 10px;
+}
+
+.login-eye{
+    position: relative;
+}

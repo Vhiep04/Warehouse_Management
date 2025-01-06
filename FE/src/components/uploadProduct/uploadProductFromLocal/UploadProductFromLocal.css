@@ -1,0 +1,222 @@
+.container_uplocal{
+    width: 100%;
+    height: 80vh;
+    overflow: auto;
+    border: 1px solid gray;
+    margin: auto;
+}
+.list_bodyuplocal{
+    background-color: #c2c2c2;
+    padding: 15px 30px ;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.list_bodyuplocal .searchuplocal{
+     
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.list_bodyuplocal .searchuplocal .inputInforuplocal{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+.list_bodyuplocal .searchuplocal .inputInforuplocal .boxuplocal{
+    min-width: 200px;
+    max-width: 500px;
+    margin: 20px;
+    float: left;
+    flex: 1;
+}
+.list_bodyuplocal .searchuplocal .IDuplocal{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.list_bodyuplocal .searchuplocal .iIDuplocal {  
+    height: 30px;
+    background-color: #dadada;  
+    border: hidden;
+    width: 60%;
+    outline: none;
+    padding: 7px;
+    border-radius: 5px;
+    margin-left: 15px;
+    }
+
+.list_bodyuplocal .searchuplocal .nameuplocal{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+.list_bodyuplocal .searchuplocal .iNameuplocal {
+    height: 30px;
+    background-color: #dadada;  
+    border: hidden;
+    width: 60%;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+@media screen and (max-width:768px){
+    .list_bodyuplocal .searchuplocal .inputInforuplocal{
+        flex-direction: column;
+    }
+
+   
+    .list_bodyuplocal .searchuplocal .inputInforuplocal .boxuplocal {
+    margin:5px;
+    flex: 1;
+} 
+.list_bodyuplocal .searchuplocal .IDuplocal{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.list_bodyuplocal .searchuplocal .iIDuplocal {  
+    height: 30px;
+    background-color: #dadada;  
+    border: hidden;
+    width: 40%;
+    outline: none;
+    padding: 7px;
+    border-radius: 5px;
+    margin-left: 15px;
+    }
+
+    .list_bodyuplocal .searchuplocal .nameuplocal{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.list_bodyuplocal .searchuplocal .iNameuplocal {
+    height: 30px;
+    background-color: #dadada;  
+    border: hidden;
+    width: 40%;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+    }
+/*  */
+
+.list_bodyuplocal .listTableuplocal {
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 5px;
+
+}
+.list_bodyuplocal .listTableuplocal .Listuplocal{
+    height: 100%;
+    border-collapse: separate;
+    border-spacing: 0px;
+    text-align: right;
+    width: 100%; 
+    margin: 0 20px 0 0;
+    min-width: 50%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+.list_bodyuplocal .listTableuplocal .Listuplocal tr,th{
+    padding: 10px;
+    background-color: #0B08AB;
+    color: white;
+    border: 1px solid #9d9d9d;
+
+}
+.list_bodyuplocal .listTableuplocal .Listuplocal tr,td{
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid #9d9d9d;
+}
+.list_bodyuplocal .listTableuplocal .Listuplocal .choseuplocal{
+    background-color: white;
+    color: black;
+    
+    text-align: center;
+}
+
+
+ .list_bodyuplocal .listTableuplocal .Listuplocal .centeruplocal{
+    text-align: center;
+}
+.box_chose{
+    width: 25px;
+    height: 25px;
+}
+.fa-magnifying-glass{
+    color: #888888;
+    margin-left: -30px;
+}
+/* .container_uplocal{
+    width: 70%;
+    height: 75%;
+    border: 1px solid gray;
+    margin: auto;
+    margin-top: 50px;
+} */
+.h1_uplocal{
+    background-color: #0B08AB;
+    color: white;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 30px;
+}
+.lb_up{
+    /* text-align: end; */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.lb_upload{
+    padding-right:5px ;
+
+}
+.foot{
+    background-color: #0B08AB;
+    height: 10px;
+}
+.fot_up{
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.b_uplocatol{
+    text-align: end;
+    margin-top: 10px;
+
+}
+
+.b1_uplocatol{
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 50px;
+}
+.b2_uplocatol{
+    background-color: #0B08AB;
+    color: white;
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+
+}
+.b1_uplocatol:hover{
+    background-color: rgb(248, 5, 98);
+}
+.b2_uplocatol:hover{
+    background-color: #040348 ;
+}
